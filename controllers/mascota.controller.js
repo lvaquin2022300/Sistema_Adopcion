@@ -60,8 +60,12 @@ const mascotasDelete = async (req, res) => {
 }
 
 const mascotasPost = async (req, res) => {
+    //JSSON CONT
     const { nombre, edad, especie, raza, servicio } = req.body;
     const mascota = new Mascota({ nombre, edad, especie, raza, servicio });
+
+    const salt = bcryptjs.genSaltSync();
+    mascota.especie = bcryptjs.hashSync(especie, salt);
 
     await mascota.save();
     res.status(200).json({
