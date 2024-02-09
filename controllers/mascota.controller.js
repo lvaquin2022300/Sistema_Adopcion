@@ -3,7 +3,7 @@ const bcryptjs = require('bcryptjs');
 const Mascota = require('../models/mascota');
 
 
-const mascotasGet = async (req, res = response) => {
+const mascotasGet = async (req, res) => {
     const { limite, desde } = req.query;
     const query = { estado: true };
 
