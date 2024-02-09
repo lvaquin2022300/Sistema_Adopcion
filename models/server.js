@@ -7,12 +7,15 @@ class Server{
     this.app = express();
     this.port = process.env.PORT;
     this.usuariosPath = '/api/usuarios';
+    this.mascotasPath = '/api/mascotas';
 
     this.conectarDB();
 
     this.middlewares();
 
     this.routes();
+
+    this.routesMascota();
   }
 
   async conectarDB(){
@@ -27,6 +30,10 @@ class Server{
 
   routes(){
     this.app.use(this.usuariosPath, require('../routes/user.routes'));
+  }
+
+  routesMascota(){
+    this.app.use(this.mascotasPath, require('../routes/mascotas.routes'));
   }
 
   listen(){
