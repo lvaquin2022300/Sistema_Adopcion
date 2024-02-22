@@ -1,0 +1,38 @@
+{
+<<<<<<< HEAD
+  "name": "lvaquin",
+  "version": "1.0.0",
+  "description": "Mi primera API",
+=======
+  "name": "api_matutina",
+  "version": "1.0.0",
+  "description": "Primera API IN6BM",
+>>>>>>> bef3432adcd098e449b4537e87755eb47ae285c7
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+<<<<<<< HEAD
+  "author": "Luis Vaquin",
+=======
+  "author": "Braulio Echeverria",
+>>>>>>> bef3432adcd098e449b4537e87755eb47ae285c7
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+<<<<<<< HEAD
+    "mongoose": "^8.1.1"
+  }
+}
+=======
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1"
+  }
+}
+>>>>>>> bef3432adcd098e449b4537e87755eb47ae285c7
