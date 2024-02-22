@@ -1,5 +1,5 @@
 {
-  "name": "api_elmer",
+  "name": "lvaquin",
   "version": "1.0.0",
   "description": "Mi primera API",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Elmer Santos",
+  "author": "Luis Vaquin",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
