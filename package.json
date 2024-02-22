@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Elmer Santos",
+  "author": "lvaquin",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
