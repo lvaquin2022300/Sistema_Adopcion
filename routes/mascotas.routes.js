@@ -18,5 +18,10 @@ router.get(
         check("id").custom(existeMascotaById),
         validarCampos
     ], getMascotaById);
-
+router.post(
+    "/",
+    [
+        check("nombre", "El nombre es obligatorio").not().isEmpty(),
+        validarCampos,
+    ], mascotasPost);
 module.exports = router;
