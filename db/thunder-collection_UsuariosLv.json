@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Usuarios",
+    "dateExported": "2024-02-09T01:28:02.494Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b5c637ed-0b6c-46a7-800e-f0e8b13d8ee7",
+            "colId": "59173bf1-8d01-49b0-ade2-c1ebb1358762",
+            "containerId": "",
+            "name": "usuariosPost",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-09T01:18:13.187Z",
+            "modified": "2024-02-09T01:24:25.827Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Test 6\",\n  \"correo\": \"test6@gmail.com\",\n  \"password\": \"123456\",\n  \"role\": \"ADMIN_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9a3bfa35-7f7c-40c5-aaae-29db73e20566",
+            "colId": "59173bf1-8d01-49b0-ade2-c1ebb1358762",
+            "containerId": "",
+            "name": "usuariosGet",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-09T01:19:38.217Z",
+            "modified": "2024-02-09T01:20:56.757Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6322526f-964d-499e-bea6-9b4171f4693f",
+            "colId": "59173bf1-8d01-49b0-ade2-c1ebb1358762",
+            "containerId": "",
+            "name": "getUsuarioById",
+            "url": "http://localhost:3000/api/usuarios/65c57ebab8cda145c385476f",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-09T01:22:33.471Z",
+            "modified": "2024-02-09T01:24:57.222Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9b47124c-0e32-4d12-8bb6-735a2207fa8a",
+            "colId": "59173bf1-8d01-49b0-ade2-c1ebb1358762",
+            "containerId": "",
+            "name": "usuariosPut",
+            "url": "http://localhost:3000/api/usuarios/65c57ebab8cda145c385476f",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-02-09T01:25:12.465Z",
+            "modified": "2024-02-09T01:26:08.692Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Elmer\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b3a6f0b2-6150-43f4-82eb-b6aa5dbbc490",
+            "colId": "59173bf1-8d01-49b0-ade2-c1ebb1358762",
+            "containerId": "",
+            "name": "usuariosDelete",
+            "url": "http://localhost:3000/api/usuarios/65c57ebab8cda145c385476f",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-02-09T01:27:10.077Z",
+            "modified": "2024-02-09T01:27:25.511Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
