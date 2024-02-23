@@ -19,3 +19,18 @@ const mascotaGet = async (req, res = response) => {
         mascotas
     });
 }
+
+const getMascotaById = async (req, res) => {
+
+    const { id } = req.params;
+    const mascota = await Mascota.findOne({ _id: id });
+
+    res.status(200).json({
+        mascota
+    });
+}
+
+module.exports = {
+    mascotasGet,
+    getMascotaById
+}
