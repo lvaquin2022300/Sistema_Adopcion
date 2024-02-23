@@ -1,0 +1,170 @@
+{
+<<<<<<< HEAD
+    "client": "Thunder Client",
+    "collectionName": "Mascotas",
+    "dateExported": "2024-02-09T17:37:14.182Z",
+=======
+    "client": "Thunder Mascostas",
+    "collectionName": "Mascostas",
+    "dateExported": "2024-02-08T15:54:22.281Z",
+>>>>>>> bef3432adcd098e449b4537e87755eb47ae285c7
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+<<<<<<< HEAD
+            "_id": "99806e17-ee01-4209-9cd7-befdd7cb5316",
+            "colId": "61242bd4-cdd6-44ba-9823-4a0490f1851e",
+            "containerId": "",
+            "name": "mascotasGet",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-09T16:11:15.414Z",
+            "modified": "2024-02-09T16:54:39.449Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"YO\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8d461f8a-41d3-4b8a-950f-378ef8242370",
+            "colId": "61242bd4-cdd6-44ba-9823-4a0490f1851e",
+            "containerId": "",
+            "name": "mascotaPost",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-09T17:00:58.731Z",
+            "modified": "2024-02-09T17:02:24.762Z",
+=======
+            "_id": "b413b129-9d83-4d5f-bcfd-f187d6cef353",
+            "colId": "072bd8a5-bcd6-4dfe-a540-b6f2efc03413",
+            "containerId": "",
+            "name": "usuariosPost",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-08T14:22:43.606Z",
+            "modified": "2024-02-08T15:01:28.965Z",
+>>>>>>> bef3432adcd098e449b4537e87755eb47ae285c7
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+<<<<<<< HEAD
+                "raw": "{\n  \"nombre\": \"Diego\",\n  \"tipo\": \"perro\",\n  \"raza\": \"chiwawa\",\n  \"color\": \"blanco\",\n  \"edad\": \"1\",\n  \"estado\": true\n}",
+=======
+                "raw": "{\n  \"nombre\":\"Test 10\",\n  \"correo\":\"test10@kinal.edu.gt\",\n  \"password\":\"123456\",\n  \"role\":\"ADMIN_ROLE\"\n}",
+>>>>>>> bef3432adcd098e449b4537e87755eb47ae285c7
+                "form": []
+            },
+            "tests": []
+        },
+        {
+<<<<<<< HEAD
+            "_id": "e9a92b63-806b-444d-a734-b796582b690b",
+            "colId": "61242bd4-cdd6-44ba-9823-4a0490f1851e",
+            "containerId": "",
+            "name": "getMascotaById",
+            "url": "http://localhost:3000/api/mascotas/65c65bc7d2eb8f5faada365c",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-09T17:09:37.807Z",
+            "modified": "2024-02-09T17:10:04.720Z",
+=======
+            "_id": "07494473-2160-42dc-874a-3ed2632f88d1",
+            "colId": "072bd8a5-bcd6-4dfe-a540-b6f2efc03413",
+            "containerId": "",
+            "name": "usuariosGet",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-08T15:02:09.521Z",
+            "modified": "2024-02-08T15:51:50.169Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0be7dc4f-c351-4240-aae0-501c1306d2ab",
+            "colId": "072bd8a5-bcd6-4dfe-a540-b6f2efc03413",
+            "containerId": "",
+            "name": "getUsuarioById",
+            "url": "http://localhost:3000/api/mascotas/65c4eca2d69fe09ab98b781c",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-08T15:29:15.512Z",
+            "modified": "2024-02-08T15:31:00.311Z",
+>>>>>>> bef3432adcd098e449b4537e87755eb47ae285c7
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+<<<<<<< HEAD
+            "_id": "3cf804b6-7aca-49df-a424-98f6cd700460",
+            "colId": "61242bd4-cdd6-44ba-9823-4a0490f1851e",
+            "containerId": "",
+            "name": "mascotaPut",
+            "url": "http://localhost:3000/api/mascotas/65c65bc7d2eb8f5faada365c",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-09T17:14:51.071Z",
+            "modified": "2024-02-09T17:22:15.979Z",
+=======
+            "_id": "f055561d-ba52-4a91-a127-a031ee7f9f0e",
+            "colId": "072bd8a5-bcd6-4dfe-a540-b6f2efc03413",
+            "containerId": "",
+            "name": "usuariosPut",
+            "url": "http://localhost:3000/api/mascotas/65c4eca2d69fe09ab98b781c",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-08T15:39:55.930Z",
+            "modified": "2024-02-08T15:40:47.640Z",
+>>>>>>> bef3432adcd098e449b4537e87755eb47ae285c7
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+<<<<<<< HEAD
+                "raw": "{\n  \"nombre\": \"a\",\n  \"tipo\": \"a\",\n  \"raza\": \"a\",\n  \"color\": \"a\",\n  \"edad\": \"2\",\n  \"estado\": false\n}",
+=======
+                "raw": "{\n  \"nombre\":\"Paquita la del barrio\"\n}",
+>>>>>>> bef3432adcd098e449b4537e87755eb47ae285c7
+                "form": []
+            },
+            "tests": []
+        },
+        {
+<<<<<<< HEAD
+            "_id": "339494b1-8873-47ca-898a-d5dad1d558ef",
+            "colId": "61242bd4-cdd6-44ba-9823-4a0490f1851e",
+            "containerId": "",
+            "name": "mascotaDelete",
+            "url": "http://localhost:3000/api/mascotas/65c65bc7d2eb8f5faada365c",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-09T17:32:50.698Z",
+            "modified": "2024-02-09T17:33:06.492Z",
+=======
+            "_id": "9049d8b6-92e0-4b21-9fc4-9a1e14fc4c00",
+            "colId": "072bd8a5-bcd6-4dfe-a540-b6f2efc03413",
+            "containerId": "",
+            "name": "usuarioDelete",
+            "url": "http://localhost:3000/api/mascotas/65c4e433d69fe09ab98b780d",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-08T15:51:13.400Z",
+            "modified": "2024-02-08T15:52:59.768Z",
+>>>>>>> bef3432adcd098e449b4537e87755eb47ae285c7
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
