@@ -30,8 +30,8 @@ const getMascotaById = async (req, res) => {
 }
 
 const mascotasPost = async (req, res) => {
-    const { nombre, tipo, raza, color, edad, estado } = req.body;
-    const mascota = new Mascota({ nombre, tipo, raza, color, edad, estado });
+    const { nombre, tipo, fecha, raza, edad, estado } = req.body;
+    const mascota = new Mascota({ nombre, tipo, fecha, raza, edad, estado });
 
     await mascota.save();
     res.status(200).json({
