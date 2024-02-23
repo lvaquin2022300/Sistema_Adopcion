@@ -48,7 +48,7 @@ const mascotasPut = async (req, res) => {
     const mascota = await Mascota.findOne({ _id: id });
 
     res.status(200).json({
-        msg: 'Mascota Actualizada existosamente',
+        msg: 'El registro se actualizo correctamente',
         mascota
     });
 }
