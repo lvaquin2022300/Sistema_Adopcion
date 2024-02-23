@@ -1,4 +1,6 @@
-const { response } = require('express');
+
+const { response } = require('express'); //Agg los modulos en controller Usuario
+
 const bcryptjs = require('bcryptjs');
 const Usuario = require('../models/usuario');
 

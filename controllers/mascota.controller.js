@@ -1,7 +1,7 @@
 /*PMA luisVaquin*/
 
 
-const { response } = require('express');
+const { response } = require('express'); //Agregar modulos necesarios para controller mascota
 
 const Mascota = require('../models/mascota');
 
