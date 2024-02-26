@@ -38,7 +38,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nombre\": \"Diego\",\n  \"tipo\": \"perro\",\n  \"raza\": \"chiwawa\",\n  \"color\": \"blanco\",\n  \"edad\": \"1\",\n  \"estado\": true\n}",
+                "raw": "{\n  \"nombre\": \"Boby\",\n  \"tipo\": \"canino\",\n  \"fecha\": \"Junio\",\n  \"raza\": \"Podle\",\n  \"edad\": \"25\",\n  \"estado\": true\n}",
                 "form": []
             },
             "tests": []
@@ -71,7 +71,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nombre\": \"a\",\n  \"tipo\": \"a\",\n  \"raza\": \"a\",\n  \"color\": \"a\",\n  \"edad\": \"2\",\n  \"estado\": false\n}",
+                "raw": "{\n  \"nombre\": \"Max\",\n  \"tipo\": \"canino\",\n  \"fecha\": \"Junio\",\n  \"raza\": \"Pudle\",\n  \"edad\": \"10\",\n  \"estado\": false\n}",
                 "form": []
             },
             "tests": []
